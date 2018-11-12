@@ -1,258 +1,392 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>门窗铝型材厂家|佛山门窗铝型材-佛山市金桃铝业有限公司</title>
-<meta name="viewport" content="width=1200, user-scalable=no, target-densitydpi=device-dpi">
-<meta name="keywords" content="佛山市金桃铝业有限公司" />
-<meta name="description" content="佛山市金桃铝业有限公司是生产铝合金门窗型材,门窗铝型材,工业型材,装饰铝型材,门窗铝型材厂家,公司技术力量雄厚,为用户提供优质的产品和完善的服务" />
-<!-- Link Swiper's CSS -->
-<link rel="stylesheet" href="<?php echo $tag['path.skin']; ?>dist/css/swiper.min.css">
+    <meta charset="utf-8">
+    <title>佛山市艺高语言艺术培训中心</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
 
+    <!--JQ基础文件-->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
-<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/style.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>css/css.css" />
-<link rel="stylesheet" type="text/css" href="<?php echo $tag['path.skin']; ?>iconfont/iconfont.css" />
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-<!--JQ基础文件-->
-<script type="text/javascript" src="<?php echo $tag['path.skin']; ?>js/jquery-1.9.1.min.js"></script>
-
-<!--IE6 PNG透明-->
-<!--[if lte IE 6]>
-<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <!--IE6 PNG透明-->
+    <!--[if lte IE 6]>
+    <script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
     <script type="text/javascript">
         DD_belatedPNG.fix('div, ul, img, li, input , a');
     </script>
-<![endif]-->
+    <![endif]-->
 
-<!--TAB JS-->
-<script type="text/javascript"> 
-function setTab(m,n){ 
-var menu=document.getElementById("tab"+m).getElementsByTagName("li");  
-var div=document.getElementById("tablist"+m).getElementsByTagName("div"); 
-var showdiv=[]; 
-	for (i=0; j=div[i]; i++)
-	{  
-		if((" "+div[i].className+" ").indexOf(" tablist ")!=-1)
-		{  
-			showdiv.push(div[i]); 
-		} 
-	}  
-	for(i=0;i<menu.length;i++)
-	{  
-		menu[i].className=i==n?"now":"";  
-		showdiv[i].style.display=i==n?"block":"none"; 
-	}  
-}  
-</script>
-<script>
-	$(function(){
-		$('li a').mouseover(function(){
-			$(this).next('span').children('a').css('background','url(<?php echo $tag['path.skin']; ?>images/dot_pro.png)  260px 6px no-repeat #db0d0d')});
-			$('li a').mouseover(function(){
-			$(this).next('span').children('a').css('color','#fff')});
-			$('li a').mouseleave(function(){
-			$(this).next('span').children('a').css('background','#fff')});
-			$('li a').mouseleave(function(){
-			$(this).next('span').children('a').css('color','#484848')});
-			
-	});
-</script>
+    <!--wow.js-->
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 0,
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    </script>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+
+    <!--TAB JS-->
+    <script type="text/javascript">
+        function setTab(m,n){
+            var menu=document.getElementById("tab"+m).getElementsByTagName("li");
+            var div=document.getElementById("tablist"+m).getElementsByTagName("div");
+            var showdiv=[];
+            for (i=0; j=div[i]; i++)
+            {
+                if((" "+div[i].className+" ").indexOf(" tablist ")!=-1)
+                {
+                    showdiv.push(div[i]);
+                }
+            }
+            for(i=0;i<menu.length;i++)
+            {
+                menu[i].className=i==n?"now":"";
+                showdiv[i].style.display=i==n?"block":"none";
+            }
+        }
+    </script>
+
 </head>
 
 <body>
-<!-- 头部 -->
-<div class="top">
-	<div class="top_in">
-    	<div class="logo"><a href="#"><img src="<?php echo $tag['path.skin']; ?>images/logo.png" border="0"/></a></div>
-<div class="logo_r">
-        	<div class="search">
-                <form action="<?php echo $tag['form.action.search']; ?>" method="post">
-                <div class="search_r"><input type="image" src="<?php echo $tag['path.skin']; ?>images/search_r.png" ></div>
-                <div class="search_l"><input name="keyword" id="txt_search" type="text"   value="Search..."  onFocus="if(value==defaultValue){value='';this.style.color='#484848'}" onBlur="if(!value){value=defaultValue;this.style.color='#d4d4d4'}" style="color:#d4d4d4"></div>
-                </form>
-                <div class="clear"></div>
-            </div>
-            <div class="nav">
-            	<ul>
-                	<li><a href="http://www.fsjintao.com/" title="首页" class="now">首页</a></li>
-                    <?php nav_main()?>
-                </ul>
-            </div>
+
+<!--头部-->
+<div class="top clear">
+    <div class="top_in">
+        <div class="top_l">欢迎来到佛山市艺高语言艺术培训中心</div>
+        <div class="top_r">
+            <ul>
+                <li>
+                    <a href="tencent://message/?uin=63912980&&Menu=yes">
+                        <dt><img src="images/top_qq.png" width="30" height="30" /></dt>
+                        <dd>办公QQ</dd>
+                    </a>
+                </li>
+                <li class="wx1">
+                    <a href="###">
+                        <dt><img src="images/top_wx.png" width="30" height="30" /></dt>
+                        <dd>微信公众号</dd>
+                        <div class="wx_qr1"><img src="images/wx_qr.jpg" /></div>
+                    </a>
+                </li>
+                <script>
+                    $(function(){
+                        $('.wx1').mouseover(function(){
+                            $('.wx_qr1').show();
+                        });
+                        $('.wx1').mouseleave(function(){
+                            $('.wx_qr1').hide()
+                        });
+                    });
+                </script>
+            </ul>
         </div>
     </div>
 </div>
+
+<!--导航-->
+<div class="nav_all">
+    <div class="nav_in clear">
+        <div class="logo"><a href="#"><img src="images/logo.jpg"  /></a></div>
+        <div class="nav_list">
+            <ul>
+                <li class="now"><a href="###">首页</a></li>
+                <li><a href="###">中心介绍</a></li>
+                <li><a href="###">雄厚师资</a></li>
+                <li><a href="###">传媒艺考</a></li>
+                <li><a href="###">教育产品</a></li>
+                <li><a href="###">新闻动态</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <!-- Swiper -->
-<div class="swiper-container swiper1">
+<div class="swiper-container">
     <div class="swiper-wrapper">
-        <?php doc_focus('4',3,0,0,0,true,'id',0)?>
+        <div class="swiper-slide" style="background:url(images/banner.jpg) top center no-repeat;"></div>
+        <div class="swiper-slide" style="background:url(images/banner.jpg) top center no-repeat;"></div>
+        <div class="swiper-slide" style="background:url(images/banner.jpg) top center no-repeat;"></div>
     </div>
     <!-- Add Pagination -->
     <div class="swiper-pagination swiper-pagination-white"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next swiper-button-white"></div>
-    <div class="swiper-button-prev swiper-button-white"></div>
-    
+    <!-- Add Arrows
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    -->
 </div>
+
 <!-- Swiper JS -->
-<script src="<?php echo $tag['path.skin']; ?>dist/js/swiper.min.js"></script>
+<script src="dist/js/swiper.min.js"></script>
+
 <!-- Initialize Swiper -->
 <script>
-var swiper1 = new Swiper('.swiper1', {
-	pagination: '.swiper-pagination',
-	nextButton: '.swiper-button-next',
-	prevButton: '.swiper-button-prev',
-	paginationClickable: true,
-	spaceBetween: 30,
-	centeredSlides: true,
-	autoplay: 2500,
-	autoplayDisableOnInteraction: false,
-	effect: 'fade'
-});
-
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
 </script>
 
-<!-- 首页标题 -->
-<div class="idx_title">
-	<span>产品展示</span>
-    <label>PRODUCTS SHOW</label>
+<!--创办宗旨-->
+<div class="idx_title"><img src="images/idx_title1.jpg" /></div>
+<div class="idx_title_b">宗旨宗旨宗宗旨宗旨宗宗旨宗旨宗宗旨宗旨宗宗旨宗旨宗宗宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨宗旨</div>
+
+<div class="purpose wow fadeInUp">
+    <ul class="clear">
+        <li>
+            <dt><img src="images/purpose_dot1.jpg" /></dt>
+            <dd>官方承认</dd>
+            <div class="purpose_show">
+                <span>官方承认</span>
+                <label>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</label>
+            </div>
+        </li>
+        <li>
+            <dt><img src="images/purpose_dot2.jpg" /></dt>
+            <dd>全面服务</dd>
+            <div class="purpose_show">
+                <span>全面服务</span>
+                <label>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</label>
+            </div>
+        </li>
+        <li>
+            <dt><img src="images/purpose_dot3.jpg" /></dt>
+            <dd>顶级师资</dd>
+            <div class="purpose_show">
+                <span>顶级师资</span>
+                <label>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</label>
+            </div>
+        </li>
+        <li>
+            <dt><img src="images/purpose_dot4.jpg" /></dt>
+            <dd>一流环境</dd>
+            <div class="purpose_show">
+                <span>一流环境</span>
+                <label>内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</label>
+            </div>
+        </li>
+    </ul>
+    <script>
+        $(function(){
+            $('.purpose ul li').mouseover(function(){
+                $(this).children('.purpose_show').stop().fadeIn();
+            });
+            $('.purpose ul li').mouseleave(function(){
+                $(this).children('.purpose_show').stop().fadeOut();
+            });
+        });
+    </script>
 </div>
 
-<!-- 产品 -->
-<div class="idx_hot">
-	<div class="idx_tab_t" id="tab1">
+<a href="###" class="idx_btn wow flipInX">了解更多</a>
+
+
+<!--顶级师资-->
+<div class="idx_title wow fadeInUp"><img src="images/idx_title2.jpg" /></div>
+
+<div class="idx_teacher wow fadeInUp">
+    <ul class="clear">
+        <li>
+            <span><img src="images/teacher_pic.jpg" width="223" height="241" /></span>
+            <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            <a class="idx_teacher" href="###">顾 月 GUYUE</a>
+        </li>
+        <li>
+            <span><img src="images/teacher_pic.jpg" width="223" height="241" /></span>
+            <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            <a class="idx_teacher" href="###">顾 月 GUYUE</a>
+        </li>
+        <li>
+            <span><img src="images/teacher_pic.jpg" width="223" height="241" /></span>
+            <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            <a class="idx_teacher" href="###">顾 月 GUYUE</a>
+        </li>
+        <li>
+            <span><img src="images/teacher_pic.jpg" width="223" height="241" /></span>
+            <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            <a class="idx_teacher" href="###">顾 月 GUYUE</a>
+        </li>
+    </ul>
+</div>
+
+<a href="###" class="idx_btn wow flipInX">了解更多</a>
+
+
+<!--首页广告-->
+<div class="idx_av wow fadeInUp"><img src="images/idx_av.jpg" /></div>
+
+
+<!--教育产品-->
+<div class="idx_title wow fadeInLeft"><img src="images/idx_title3.jpg" /></div>
+<div class="idx_title_b wow fadeInLeft">产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介产品简介</div>
+
+<div class="idx_education wow fadeInLeft">
+    <ul class="clear">
+        <li>
+            <a href="###">
+                <img src="images/education_pic1.jpg" />
+                <span>19年编导专业</span>
+                <dd href="#">KNOW MORE</dd>
+                <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            </a>
+        </li>
+        <li>
+            <a href="###">
+                <img src="images/education_pic2.jpg" />
+                <span>19年播音专业</span>
+                <dd href="#">KNOW MORE</dd>
+                <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            </a>
+        </li>
+        <li>
+            <a href="###">
+                <img src="images/education_pic3.jpg" />
+                <span>茁壮成长</span>
+                <dd href="#">KNOW MORE</dd>
+                <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            </a>
+        </li>
+        <li>
+            <a href="###">
+                <img src="images/education_pic4.jpg" />
+                <span>冬/夏令营</span>
+                <dd href="#">KNOW MORE</dd>
+                <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍</label>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<a href="###" class="idx_btn wow flipInX">了解更多</a>
+
+
+<!--关于我们-->
+<div class="idx_about clear wow  fadeInRight">
+    <div class="idx_about_l"></div>
+    <div class="idx_about_m">
+        <span>佛山市语言艺术培训中心艺考中心</span>
+        <label>简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介</label>
+    </div>
+    <a class="idx_about_r" href="###">关于我们</a>
+</div>
+
+<!--首页留言-->
+<div class="idx_msg wow flipInY">
+
+    <div class="idx_msg_l"><img src="images/msg_l.jpg" /></div>
+    <div class="idx_msg_r"><img src="images/msg_r.jpg" /></div>
+
+    <div id="tablist1">
+        <div class="idx_msg_m tablist block">
+            <div class="idx_msg_m_t">他们为什么为选择我们?</div>
+            <div class="idx_msg_m_m">111111111111111111111111111简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介</div>
+            <div class="idx_msg_m_b">
+                <span>李荣耀先生</span>
+                <label>中国财经副主席</label>
+            </div>
+        </div>
+        <div class="idx_msg_m tablist ">
+            <div class="idx_msg_m_t">他们为什么为选择我们?</div>
+            <div class="idx_msg_m_m">222222222222222222222222简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介</div>
+            <div class="idx_msg_m_b">
+                <span>李荣耀先生</span>
+                <label>中国财经副主席</label>
+            </div>
+        </div>
+        <div class="idx_msg_m tablist ">
+            <div class="idx_msg_m_t">他们为什么为选择我们?</div>
+            <div class="idx_msg_m_m">33333333333333333333333333简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介</div>
+            <div class="idx_msg_m_b">
+                <span>李荣耀先生</span>
+                <label>中国财经副主席</label>
+            </div>
+        </div>
+        <div class="idx_msg_m tablist ">
+            <div class="idx_msg_m_t">他们为什么为选择我们?</div>
+            <div class="idx_msg_m_m">44444444444444444444444简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介绍简单介</div>
+            <div class="idx_msg_m_b">
+                <span>李荣耀先生</span>
+                <label>中国财经副主席</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="idx_msg_b" id="tab1">
         <ul>
-            <?php nav_sub(3,0,2);?>
+            <li onmouseover="setTab(1,0)" class="circle now"><img class="circle" src="images/msg_pic.jpg" /></li>
+            <li onmouseover="setTab(1,1)" class="circle"><img class="circle" src="images/msg_pic.jpg" /></li>
+            <li onmouseover="setTab(1,2)" class="circle"><img class="circle" src="images/msg_pic.jpg" /></li>
+            <li onmouseover="setTab(1,3)" class="circle"><img class="circle" src="images/msg_pic.jpg" /></li>
         </ul>
     </div>
 
-	<div id="tablist1">
-        <?php nav_sub(3,1,2);?>
-    </div>
 </div>
 
-<!-- 工程案例 -->
-<div class="project_title"></div>
-<div class="bg_gray">
-	<div class="idx_project">
-    	<ul>
-            <?php doc_product(5,8,0,0,0,0,true,false,'ordering',0)?>
-            <div class="clear"></div>
-        </ul>
-    </div>
-</div>
 
-<!-- 关于我们 -->
-<div class="idx_title">
-	<span>关于我们</span>
-    <label>about us</label>
-</div>
-<div class="idx_abut">
-	<div class="idx_abut_l"><?php doc_focus('2',3,1,0,0,true,'id',0)?></div>
-	<div class="idx_abut_r">
-    	<div class="idx_abut_r_t_l"><img src="<?php echo $tag['path.skin']; ?>images/idx_about_t_l.gif" /></div>
-    	<div class="idx_abut_r_t_r"><img src="<?php echo $tag['path.skin']; ?>images/idx_about_t_r.gif" /></div>
-        <?php doc_article('22',0,0,0,0,0,true,true,'id',0)?></div>
-    </div>
-    <div class="idx_abut_more"><a href="<?php echo sys_href(1); ?>"><img src="<?php echo $tag['path.skin']; ?>images/more.png" /></a></div>
-    <div class="clear"></div>
-</div>
-
-<!-- 广告 -->
-<div class="idx_av1"></div>
-<div class="idx_av2">
-	<div class="idx_av_in">
-    	<div class="idx_av2_more1"><a href="<?php echo sys_href(1); ?>"></a></div>
-    	<div class="idx_av2_more2"><a href="<?php echo sys_href(1); ?>"></a></div>
-    </div>
-</div>
-<div class="idx_av3">
-	<div class="idx_av_in">
-		<div class="idx_av3_more"><a href="<?php echo sys_href(1); ?>"></a></div>
-    </div>
-</div>
-
-<!-- 首页新闻+FAQ -->
-<div class="news_fqa">
-
-	<!-- 新闻 -->
-  	<div class="idx_news">
-    	<div class="idx_title2"><a href="<?php echo sys_href(2); ?>"><img src="<?php echo $tag['path.skin']; ?>images/idx_news_title.gif" /></a></div>
-        <div class="idx_news_l">
-        <?php doc_list('2',1,1,0,0,0,true,false,'dtTime',0)?>
-        </div>
-    	<div class="idx_news_r">
-        	<ul>
-                <?php doc_list('2',3,2,0,0,0,true,false,'dtTime',2)?>
-                <div class="clear"></div>
-            </ul>
-        </div>
-        <div class="clear"></div>
-    </div>
-    
-    <!-- FAQ -->
-  	<div class="idx_faq">
-    	<div class="idx_title2"><a href="<?php echo sys_href(23); ?>"><img src="<?php echo $tag['path.skin']; ?>images/idx_faq_title.gif" /></a></div>
-        <div class="idx_faq_all">
-            <?php doc_list(23,3) ?>
-        </div>
-    </div>
-  
-  
-	<div class="clear"></div>
-  
-</div><br><div class="addcontent">主营：<a href="http://www.fsjintao.com/" title="佛山门窗铝型材">佛山门窗铝型材</a> - <a href="http://www.fsjintao.com/" title="门窗铝型材厂家">门窗铝型材厂家</a></div>
-<div class="foot">
-	<div class="foot_t">
-    	<div class="foot_t_in">
-        	<div class="foot_t_in_l">理念</div>
-        	<div class="foot_t_in_r"><?php doc_article('24',0,0,0,0,0,true,true,'id',0)?></div>
-            <div class="clear"></div>
-        </div>
-    </div>
-    <div class="foot_m">
-    	<div class="foot_m_in">
-        	<div class="foot_m_qr">
-            	<?php doc_focus('3',1,2,0,0,true,'id',0)?>
-                <span>金桃公众号</span>
+<!--首页联系我们-->
+<div class="idx_contact" name="contact" id="contact">
+    <div class="idx_contact_in clear">
+        <div class="idx_title" style="margin-top:0;"><img src="images/idx_title4.jpg" /></div>
+        <div class="idx_contact_l">
+            <div class="idx_contact_l_t">通过这些方式联系我们</div>
+            <div class="idx_contact_l_list clear">
+                <span><img src="images/idx_ct_dot1.jpg" width="24" height="24" /></span>
+                <label>广东省佛山市禅城区轻工二路3号佛山市工会职业技术学校</label>
+            </div><div class="idx_contact_l_list clear">
+                <span><img src="images/idx_ct_dot2.jpg" width="24" height="24" /></span>
+                <label>0757-82360855</label>
+            </div><div class="idx_contact_l_list clear">
+                <span><img src="images/idx_ct_dot3.jpg" width="24" height="24" /></span>
+                <label>fsyikao@163.com</label>
             </div>
-            <div class="foot_m_ct">
-            	<?php doc_article('25',0,0,0,0,0,true,true,'id',0)?>
+            <dt>更多联系方式</dt>
+            <dd class="iconfont wx2">
+                <a href="#">&#xe63b;</a>
+                <div class="wx_qr2"><img src="images/wx_qr.jpg" /></div>
+                <script>
+                    $(function(){
+                        $('.wx2').mouseover(function(){
+                            $('.wx_qr2').show();
+                        });
+                        $('.wx2').mouseleave(function(){
+                            $('.wx_qr2').hide()
+                        });
+                    });
+                </script>
+            </dd>
+            <dd class="iconfont">
+                <a href="tencent://message/?uin=63912980&&Menu=yes">&#xe63a;</a>
+            </dd>
+        </div>
+        <div class="idx_contact_r">
+            <div class="idx_contact_r_t">
+                <div class="idx_contact_r_t_l">广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语广告语</div>
+                <a class="idx_contact_r_t_l" href="###">艺考报名</a>
             </div>
-          <div class="foot_m_r">
-              <form action="<?php echo $tag['form.action.search']; ?>" method="post">
-                <div class="foot_phone iconfont">&#xe64d; 服务热线:<?php doc_article('27',0,0,0,0,0,true,true,'id',0)?></div>
-                <div class="foot_search_r"><input type="submit" value="搜索"></div>
-                <div class="foot_search_l"><input name="keyword" id="txt_search" type="text"   value="Search..."  onFocus="if(value==defaultValue){value='';this.style.color='#d4d4d4'}" onBlur="if(!value){value=defaultValue;this.style.color='#3d425c'}" style="color:#3d425c"></div>
-                <div class="foot_qw iconfont"><a href="tencent://message/?uin=245964942&Site=&menu=yes">&#xe63a;</a></div>
-                </form>
-          </div>
+            <div class="idx_contact_r_b"></div>
         </div>
     </div>
-    <div class="foot_b">
-   	  <div class="foot_b_in">
-        <div class="foot_b_l">
-                <?php doc_article('26',0,0,0,0,0,true,true,'id',0)?>
-            </div>
-            
-            <div class="foot_b_r">
-              <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1263789022'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/stat.php%3Fid%3D1263789022%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 </div>
-      </div>
-    </div>
-</div>
+
+<div class="copyright">©COPYRIGHT FOSHANYIKAO 版权所有 佛山艺高语言培训中心</div>
+
+
 </body>
 </html>

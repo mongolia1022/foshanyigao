@@ -3,7 +3,7 @@
 define('DB_HOSTNAME','localhost');
 define('DB_USER','root');
 define('DB_PASSWORD','root');
-define('DB_DBNAME','yigao');
+define('DB_DBNAME','babybei');
 define('TB_PREFIX','doc_');
 //模板配置字段
 define('WEBOPEN',true);
@@ -11,15 +11,15 @@ define('WEBSIZE','500');
 define('WEBSIZECOUNTS','53');
 define('WEBURL','');    //PC 域名
 define('MOBILEURL','');  //移动域名
-define('SITENAME','稻壳企业建站系统[DocCms X1.0]2016正式版');
+define('SITENAME','bestro');
 define('SITEKEYWORDS','123');
 define('SITESUMMARY','');
-define('HTMLPATH','/html');
+define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
-define('STYLENAME','doccms_model_1');      //PC 模板
-define('MOBILENAME','mobile');      //移动模板
-define('URLREWRITE',true);
+define('STYLENAME','bestro');      //PC 模板
+define('MOBILENAME','bestro');      //移动模板
+define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);
 //评论审核
@@ -39,7 +39,7 @@ define('VERSION','X2016 1.1.0101');
 $fileIndex 	= 'index.html';
 $fileCommon = 'common.html';
 //水印图片
-define('ISWATER',true);
+define('ISWATER',false);
 define('WATERIMGS','/inc/img/system/doccms.png');
 //缩略图背景颜色设置
 define('paint_bgcolor','0xffffff');
@@ -50,8 +50,8 @@ define('articleWidth','140');
 define('articleHight','105');
 define('listWidth','140');
 define('listHight','105');
-define('productWidth','140');
-define('productHight','105');
+define('productWidth','280');
+define('productHight','280');
 define('pictureWidth','140');
 define('pictureHight','105');
 //列表模块页缩略图大小设置
@@ -61,8 +61,8 @@ define('moduleUserHight','120');
 /*上传图片的大小设置*/
 define('productMiddlePicWidth','560');
 define('productMiddlePicHight','420');
-define('productSmallPicWidth','300');
-define('productSmallPicHight','225');
+define('productSmallPicWidth','280');
+define('productSmallPicHight','280');
 define('pictureMiddlePicWidth','560');
 define('pictureMiddlePicHight','420');
 define('pictureSmallPicWidth','300');

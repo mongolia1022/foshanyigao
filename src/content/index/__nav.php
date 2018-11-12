@@ -4,9 +4,6 @@
  * @author: grysoft    QQ:767912290
  * @copyright DOCCMS
  */
- 
-
-
 function nav_main($style=0,$n=0)
 {
 	global $db,$menuRoot,$tag,$subs;
@@ -21,7 +18,7 @@ function nav_main($style=0,$n=0)
 			    if($data['isExternalLinks'])
 					$url = $data['redirectUrl'];
 				elseif(URLREWRITE)
-					$url = 'http://www.fsjintao.com/'.$data['menuName'].'/';
+					$url = '/'.$data['menuName'].'/';
 				else
 					$url ='?p='.$data['id'];	
 				//引入样式文件					
@@ -54,15 +51,15 @@ function nav_sub($id=0,$style=0,$expand=1,$n=0)
 			$str='';//重置
 			if($expand)
 			{
-				for($s=0;$s<$menus[$sid]['deep']-1;$s++)$str.='';
-				$pic = '<img src="http://www.fsjintao.com/inc/img/nav/expand-0.gif" border="0" align="absmiddle"/>';
+				for($s=0;$s<$menus[$sid]['deep']-1;$s++)$str.='&nbsp;&nbsp;&nbsp;&nbsp;';
+				$pic = '<img src="'.$tag['path.root'].'/inc/img/nav/expand-0.gif" border="0" align="absmiddle"/>';
 				$pic = isset($subs[$data['id']])&&!$expand?$pic:''; 
 			}
 			//获取栏目地址
 			if($data['isExternalLinks'])  
 				$url = $data['redirectUrl'];
 			elseif(URLREWRITE)
-				$url = 'http://www.fsjintao.com/'.$data['menuName'].'/';
+				$url = '/'.$data['menuName'].'/';
 			else
 				$url ='?p='.$data['id'];	
 				
@@ -112,7 +109,7 @@ function nav_custom($ids='',$style=0)
 			if($data['isExternalLinks'])  
 				$url = $data['redirectUrl'];
 			elseif(URLREWRITE)
-				$url = 'http://www.fsjintao.com/'.$data['menuName'].'/';
+				$url = '/'.$data['menuName'].'/';
 			else
 				$url ='?p='.$data['id'];	
 				
@@ -127,7 +124,7 @@ function nav_location($str='>>',$home='首页')
 	{
 		$sql="SELECT id, parentId, deep, menuName, title, isExternalLinks FROM `".TB_PREFIX."menu`  ORDER BY deep ASC";
 		$menus=$db->get_results($sql);
-		$temp_str 	= '<a href="http://www.fsjintao.com/'.$tag['path.root'].'">'.$home.'</a>';
+		$temp_str 	= '<a href="/'.$tag['path.root'].'">'.$home.'</a>';
 		foreach(trace_parent_nodes($menu_arr['id'],$menus) as $menu){
 			if($menu->isExternalLinks)
 			{

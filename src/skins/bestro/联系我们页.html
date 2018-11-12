@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+<!--banner js-->
+<script type="text/javascript">
+function banner(){	
+	var bn_id = 0;
+	var bn_id2= 1;
+	var speed33=5000;
+	var qhjg = 1;
+    var MyMar33;
+	$("#banner .d1").hide();
+	$("#banner .d1").eq(0).fadeIn("slow");
+	if($("#banner .d1").length>1)
+	{
+		$("#banner_id li").eq(0).addClass("nuw");
+		function Marquee33(){
+			bn_id2 = bn_id+1;
+			if(bn_id2>$("#banner .d1").length-1)
+			{
+				bn_id2 = 0;
+			}
+			$("#banner .d1").eq(bn_id).css("z-index","2");
+			$("#banner .d1").eq(bn_id2).css("z-index","1");
+			$("#banner .d1").eq(bn_id2).show();
+			$("#banner .d1").eq(bn_id).fadeOut("slow");
+			$("#banner_id li").removeClass("nuw");
+			$("#banner_id li").eq(bn_id2).addClass("nuw");
+			bn_id=bn_id2;
+		};
+	
+		MyMar33=setInterval(Marquee33,speed33);
+		
+		$("#banner_id li").click(function(){
+			var bn_id3 = $("#banner_id li").index(this);
+			if(bn_id3!=bn_id&&qhjg==1)
+			{
+				qhjg = 0;
+				$("#banner .d1").eq(bn_id).css("z-index","2");
+				$("#banner .d1").eq(bn_id3).css("z-index","1");
+				$("#banner .d1").eq(bn_id3).show();
+				$("#banner .d1").eq(bn_id).fadeOut("slow",function(){qhjg = 1;});
+				$("#banner_id li").removeClass("nuw");
+				$("#banner_id li").eq(bn_id3).addClass("nuw");
+				bn_id=bn_id3;
+			}
+		})
+		$("#banner_id").hover(
+			function(){
+				clearInterval(MyMar33);
+			}
+			,
+			function(){
+				MyMar33=setInterval(Marquee33,speed33);
+			}
+		)	
+	}
+	else
+	{
+		$("#banner_id").hide();
+	}
+}
+</script>
+
+<!--首页新闻 js-->
+<link href="css/lrtk.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/koala.min.1.5.js"></script>
+
+</head>
+
+<body style="background:#fff">
+<!-- 头部 -->
+<div class="top">
+	<div class="top_bg">
+    	<div class="top_in">
+        	<div class="top_r">
+            	<div class="top_r_t">
+                	<div class="top_link1"><a href="###"></a></div>
+                    <div class="top_link2"><a href="###"></a></div>
+                    <div class="top_link3"><a href="###"></a></div>
+            	</div>
+                <div class="top_r_b">
+                	<input id="btn_search" type="image" src="images/btn_search.gif" />
+                    <input id="txt_search" type="text"   value="What can I do for you?"  onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#6d6d6d'}" style="color:#6d6d6d">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 导航 -->
+<div class="nav">
+	<div class="nav_in">
+    	<ul>
+        	<li>
+        		<a href="#" class="now">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#">Porjects</a>
+            </li>
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Honour</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <div class="nav_dot_l"></div>
+        <div class="nav_dot_r"></div>
+    </div>
+</div>
+
+<!-- banner -->
+<div class="banner" id="banner" > <a href="###" class="d1" style="background:url(images/banner1.jpg) center no-repeat;"></a> <a href="###" class="d1" style="background:url(images/banner2.jpg) center no-repeat;"></a> <a href="###" class="d1" style="background:url(images/banner3.jpg) center no-repeat;"></a>
+  <div class="d2" id="banner_id">
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+</div>
+<script type="text/javascript">banner()</script> 
+
+<!--内页-->
+<div class="inct">
+	<div class="banner_b"></div>
+	<!-- 内页左 -->
+    <div class="left">
+    	<div class="left_in">
+        	<div class="left_t">
+            	<label>PRODUCTS</label><br>
+            	<span>BESTRO</span>
+            </div>
+            <div class="left_list">
+            	<ul>
+                	<li><a href="#" class="list_hover">classification</a></li>
+                    <li><a href="#">classification</a></li>
+                    <li><a href="#">classification</a></li>
+                    <li><a href="#">classification</a></li>
+                    <li><a href="#">classification</a></li>
+                    <li><a href="#">classification</a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="left_enter">
+           	  <dl>
+                	<dt>
+                    	<img src="images/left_enter1.gif" width="49" height="52" />
+                    </dt>
+                    <dd class="enter1">Production</dd>
+                    <dd class="enter2"><a href="#">PROUDCTS</a></dd>
+                    <dd class="enter3">The lage market
+share</dd>
+                </dl>
+              <dl style="border:none;">
+                	<dt>
+                    	<img src="images/left_enter2.gif" width="49" height="52" />
+                    </dt>
+                    <dd class="enter1">Contact us</dd>
+                    <dd class="enter2"><a href="#">CONTACT</a></dd>
+                    <dd class="enter3">Quality is the core 
+value of us</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+	<!-- 内页右 -->
+    <div class="right">
+   	  <div class="right_t">
+        	<label>CONTACT</label>
+       	  	<span>Home > <a href="#">Contact</a></span>
+        </div>
+        <div class="right_b">
+        	<div class="about">
+            	<div class="about_t">
+                	电子地图放这里
+                </div>
+                <div class="about_b">
+                    <span>BESTRO ALUMINIUM</span><br>
+                    
+                    Linkman：钟先生<br>
+                    Phone：18888888888<br>
+                    Telephone：0757-88888888  0757-88888888  0757-88888888 <br> 
+                    Fax：0757-88888888  <br>
+                    E-mail：a_three@163.com<br>
+                    Size：www.athree.com<br>
+                    Address：AddressAddressAddressAddressAddress<br>
+                  	<div class="qr"><img src="images/qr.gif" width="186" height="186" /></div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+
+
+<!--版权-->
+<div class="copyright">
+	<div class="copyright_in">
+    	<div class="copyright_l"><img src="images/logo_b.png" ></div>
+        <div class="copyright_m">
+        	<div class="copyright_m_t"><a href="#">HOME</a>　|　<a href="#">ABOUT</a>　|　<a href="#">PRODUCTS</a>　|　<a href="#">PROJECTS</a>　|　<a href="#">NEWS</a>　|　<a href="#">HONOUR</a>　|　<a href="#">CONTACT</a></div>
+        	<div class="copyright_m_t">
+            	© 2017 BESTRO ALUMINIUM. All Rights Reserved.<br/>
+All trademarks and trade names are property of their respective owners.
+            </div>
+        </div>
+        <div class="copyright_r">
+        	<ul>
+            	<li>
+                	<img width="110" height="110">
+                    <span>Mobile website</span>
+                </li>
+            	<li>
+                	<img width="110" height="110">
+                    <span>Public signal</span>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+</body>
+</html>

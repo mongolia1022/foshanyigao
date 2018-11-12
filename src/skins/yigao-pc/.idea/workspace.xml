@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fbdaff40-573d-46d7-859a-f1e79a505fb6" name="Default Changelist" comment="开发">
+      <change afterPath="$PROJECT_DIR$/.idea/jintao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_list1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/common_list2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/qyb.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animate.cssչʾ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/tinyselect.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/swiper.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/maps/swiper.jquery.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/maps/swiper.jquery.umd.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/maps/swiper.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.jquery.umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.jquery.umd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ie-css3.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/attract5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/attract_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_gray.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_gray2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bg_gray3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dot_bread.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education_pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education_pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education_pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/education_pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_av.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_ct_dot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_ct_dot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_ct_dot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_title1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_title2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_title3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/idx_title4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ll_title_now.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/msg_l.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/msg_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/msg_r.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/news_pic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/purpose_dot1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/purpose_dot2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/purpose_dot3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/purpose_dot4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/teacher_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/teacher_a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/teacher_pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/top_qq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/top_wx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wx_qr.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_custom_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_main_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_main_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_sub_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_sub_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_sub_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__nav/nav_sub_3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/__sys/product_about_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/article/article_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/article/article_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/bbs/bbs_discuz_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/bbs/bbs_phpwind_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/download/download_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/flash/flash_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/focus/focus_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/focus/focus_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/focus/focus_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/focus/focus_3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/focus/focus_4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/guestbook/guestbook_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/jobs/jobs_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/linkers/linkers_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/linkers/linkers_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/list/list_5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/mapshow/mapshow_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/picture/picture_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/poll/poll_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/product/product_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/product/product_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/product/product_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/rss/rss_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/user/user_login_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/user/user_regist_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/video/video_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/video/video_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index/webmap/webmap_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/DD_belatedPNG_0.0.8a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/tinyselect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/wow.js更新.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/article/article_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/article/article_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/article/article_index_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/calllist/calllist_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/calllist/calllist_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/comment/comment_index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/comment/comment_view_comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/download/download_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/download/download_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_send_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_send_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/jobs/jobs_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/linkers/linkers_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/linkers/linkers_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/list/list_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/list/list_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/list/list_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/list/list_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/mapshow/mapshow_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/mapshow/mapshow_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/order/order_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/order/order_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/pay/pay_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/pay/pay_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/picture/picture_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/picture/picture_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/picture/picture_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/picture/picture_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/poll/poll_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/poll/poll_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/poll/poll_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/poll/poll_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_basket_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_basket_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_basketqr_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_basketqr_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_submitbasket_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_submitbasket_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/product/product_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/rss/rss_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/rss/rss_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/search/search_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/search/search_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_comment_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_comment_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_edit_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_edit_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_editpwd_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_editpwd_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_guestbook_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_guestbook_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_login_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_login_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_order_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_order_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_reg_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/user/user_reg_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/video/video_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/video/video_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/video/video_view_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/video/video_view_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/webmap/webmap_index_0.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/webmap/webmap_index_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preview/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preview/index_s.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preview/xiaoguotu1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preview/xiaoguotu2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内容页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图文列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/文字列表页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/艺考报名.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1908375325">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-402165702">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="txt" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yigao-pc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yigao-pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbdaff40-573d-46d7-859a-f1e79a505fb6" name="Default Changelist" comment="" />
+      <created>1542030382407</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542030382407</updated>
+      <workItem from="1542030383810" duration="141000" />
+      <workItem from="1542033028336" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="190000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="开发" />
+  </component>
+</project>

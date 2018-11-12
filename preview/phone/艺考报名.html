@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+<title>无标题文档</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/css.css" />
+
+<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+
+<link rel="stylesheet" href="lib/weui.min.css">
+<link rel="stylesheet" href="css/jquery-weui.css">
+
+<!--JQ基础文件-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+
+<!--IE6 PNG透明-->
+<!--[if lte IE 6]>
+<script src="js/DD_belatedPNG_0.0.8a.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+
+</head>
+
+<body>
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/banner.jpg" width="100%" /></div>
+        <div class="swiper-slide"><img src="images/banner.jpg" width="100%" /></div>
+        <div class="swiper-slide"><img src="images/banner.jpg" width="100%" /></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination swiper-pagination-white"></div>
+    <!-- Add Arrows 
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    -->
+</div>
+
+
+<!-- Swiper JS -->
+<script src="dist/js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+    pagination: '.swiper-pagination',
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    paginationClickable: true,
+    spaceBetween: 0,
+    centeredSlides: true,
+    autoplay: 2500,
+    autoplayDisableOnInteraction: false
+});
+</script>
+
+
+<div class="weui-cells weui-cells_form" style="margin-top:0;">
+
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">学员姓名</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入学员姓名">
+    </div>
+  </div>
+  
+  <div class="weui-cell weui-cell_select">
+    <div class="weui-cell__bd">
+      <select class="weui-select" name="select1">
+        <option selected="" value="1">选择性别</option>
+        <option value="2">男</option>
+        <option value="3">女</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="weui-cell weui-cell_select">
+    <div class="weui-cell__bd">
+      <select class="weui-select" name="select1">
+        <option selected="" value="1">报读专业</option>
+        <option value="2">播音主持</option>
+        <option value="3">编导</option>
+        <option value="4">摄影摄像</option>
+        <option value="5">表演</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">本人电话</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入本人电话">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">老师电话</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入老师电话">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">在读学校</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入在读学校">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">年级班级</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入年级班级">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">学籍所在</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入学籍所在">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">本人身高</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入本人身高">
+    </div>
+  </div>
+  
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">身份证号</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入身份证号">
+    </div>
+  </div>
+  
+  <div class="weui-cell weui-cell_select">
+    <div class="weui-cell__bd">
+      <select class="weui-select" name="select1">
+        <option selected="" value="1">选择文理科</option>
+        <option value="2">文科</option>
+        <option value="3">理科</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">电子邮箱</label></div>
+    <div class="weui-cell__bd">
+      <input class="weui-input" type="text" placeholder="请输入电子邮箱">
+    </div>
+  </div>
+  
+  <div class="weui-cell">
+    <div class="weui-cell__hd"><label class="weui-label">家庭地址</label></div>
+  </div>
+<div class="weui-cells weui-cells_form" style="margin-top:0;">
+  <div class="weui-cell">
+    <div class="weui-cell__bd">
+      <textarea class="weui-textarea" placeholder="请输入家庭地址" rows="3"></textarea>
+    </div>
+  </div>
+</div>
+  
+</div>
+        
+<div class="weui-btn-area" style="margin-bottom:10px;">
+  <a class="weui-btn weui-btn_primary" href="javascript:" id="showTooltips">确定提交</a>
+</div>
+
+<script src="lib/jquery-2.1.4.js"></script>
+<script src="lib/fastclick.js"></script>
+<script>
+  $(function() {
+    FastClick.attach(document.body);
+  });
+</script>
+<script src="js/jquery-weui.js"></script>
+
+</body>
+</html>

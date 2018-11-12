@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*swiper*/
+.swiper-slide img{float:left;}
+
+/*内容页*/
+.about{border:1px solid #dadada; border-bottom:none;}
+.content{padding:0 20px; padding-bottom:30px;}
+.inside_r_t{border-bottom:1px dashed #ddd; text-align:center; margin-bottom:20px; margin-top:30px;}
+.inside_r_t span{color:#484848; font-size:20px; margin-bottom:16px; display:block;}
+.inside_r_t label{color:#c2c2c2; font-size:12px; margin-bottom:16px; display:block; font-weight:lighter;}
+.inside_m{width:100%; padding-bottom:20px; line-height:24px;}
+.inside_m em{color:#9a9a9a; font-style:normal; display:block; margin-bottom:16px;}
+.inside_b{border-top:1px dashed #ddd; padding-top:22px; /*margin-bottom:50px;*/}
+.inside_b span{display:block; margin-bottom:14px; font-size:14px;}
+.inside_b span a{color:#0385ea;}
+.inside_b span a:hover{color:#006cbf;}

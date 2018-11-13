@@ -159,6 +159,7 @@
 
     $(function(){
         $("form").submit(function(e){
+            var $form=$('#form');
             var msg='学员姓名：'+$('#name').val()+'，';
             msg+='性别：'+$('#sex').val()+'，';
             msg+='报读专业：'+$('#subject').val();

@@ -184,10 +184,10 @@ a.idx_contact_r_t_l:hover{ background:#506487;}
 /*内容页*/
 .about{border:1px solid #dadada; border-bottom:none;}
 .content{padding:0 20px; padding-bottom:30px;}
-.inside_r_t{border-bottom:1px dashed #ddd; text-align:center; margin-bottom:20px; margin-top:30px;}
+.inside_r_t{border-bottom:1px dashed #ddd; text-align:center; margin-bottom:0; margin-top:30px;}
 .inside_r_t span{color:#484848; font-size:20px; margin-bottom:16px; display:block;}
 .inside_r_t label{color:#c2c2c2; font-size:12px; margin-bottom:16px; display:block; font-weight:lighter;}
-.inside_m{width:100%; padding-bottom:20px; line-height:24px;}
+.inside_m{width:100%; padding:20px 0; line-height:24px;}
 .inside_m em{color:#9a9a9a; font-style:normal; display:block; margin-bottom:16px;}
 .inside_b{border-top:1px dashed #ddd; padding-top:22px; /*margin-bottom:50px;*/}
 .inside_b span{display:block; margin-bottom:14px; font-size:14px;}
@@ -240,6 +240,7 @@ a.idx_contact_r_t_l:hover{ background:#506487;}
 .txb2{width:656px; float:left;}
 .txb1_r2{width:592px;  height:75px; float:left;}
 .txb1_r2 textarea{width:578px; height:63px; background:#fff; border:1px solid #ccc; border-radius:3px; padding:6px;}
+.txb1_r2 img{margin-top:6px;}
 .attract_btn{width:74px; height:74px; float:left; margin-left:20px;}
 .attract_btn input{background:#f8412d; border-radius:5px;}
 .attract_btn input:hover{background:#f8412d;}

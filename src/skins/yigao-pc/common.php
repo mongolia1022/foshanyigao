@@ -138,7 +138,7 @@
         autoplayDisableOnInteraction: false
     });
 </script>
-<?php if( sys_menu_info('id',true)!=3 )
+<?php if( sys_menu_info('id',true)!=25 )
 {?>
 <!--内页-->
 <div class="center2">

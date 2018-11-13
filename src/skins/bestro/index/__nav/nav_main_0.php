@@ -21,7 +21,7 @@ $target = $data['isTarget']?$target:'';
 
 /************** 样式正文 ************/
 ?>
-<div class="index_pic">
+<div class="index_pic"> 
     <img src="<?php echo $tag['path.skin']; ?>images/<?php echo $i+1?>b.jpg" width="200" height="600">
     <div class="title_w"><?php echo $data['title'];?></div>
     <div class="index_pic_in" style="top: -600px;"> <a href="<?php echo $url?>"><img src="<?php echo $tag['path.skin']; ?>images/<?php echo $i+1?>.jpg" width="200" height="599"></a> </div>

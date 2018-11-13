@@ -76,7 +76,7 @@
                 </li>
                 <li class="wx1">
                     <a href="###">
-                        <dt><img src="images/top_wx.png" width="30" height="30" /></dt>
+                        <dt><img src="<?php echo $tag['path.skin']; ?>images/top_wx.png" width="30" height="30" /></dt>
                         <dd>微信公众号</dd>
                         <div class="wx_qr1"><img src="<?php echo $tag['path.skin']; ?>images/wx_qr.jpg" /></div>
                     </a>

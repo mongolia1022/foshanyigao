@@ -18,7 +18,7 @@ define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
 define('STYLENAME','yigao-pc');      //PC 模板
-define('MOBILENAME','mobile');      //移动模板
+define('MOBILENAME','yigao-pc');      //移动模板
 define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);

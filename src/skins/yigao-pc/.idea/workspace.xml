@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbdaff40-573d-46d7-859a-f1e79a505fb6" name="Default Changelist" comment="开发">
-      <change beforePath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/list/list_index_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/list/list_index_0.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,17 +58,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/common.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -149,12 +139,12 @@
       <workItem from="1542033209749" duration="1000" />
       <workItem from="1542033223192" duration="58000" />
       <workItem from="1542033336099" duration="37000" />
-      <workItem from="1542084213843" duration="538000" />
+      <workItem from="1542084213843" duration="1148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="846000" />
+    <option name="totallyTimeSpent" value="1456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />

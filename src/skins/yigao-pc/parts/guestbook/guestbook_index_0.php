@@ -1,5 +1,6 @@
 <!--内页-->
 <!--您还在等待？-->
+<form id="form1" name="form1" method="post" action="<?php echo sys_href($params['id'],'form_action');?>">
 <div class="attract_t2">
     <div class="attract_t2_in">
         <span>· 您还在等待? ·</span>
@@ -23,7 +24,7 @@
         <div class="txb1">
             <div class="txb1_l">选择性别</div>
             <div class="txb1_r">
-                <select id="select1" style="width: 100%;" id="sex">
+                <select id="sex" style="width: 100%;">
                     <option value="-1">请选择性别</option>
                     <option value="女">女</option>
                     <option value="男">男</option>
@@ -33,7 +34,7 @@
         <div class="txb1">
             <div class="txb1_l">报读专业</div>
             <div class="txb1_r">
-                <select id="select2" style="width: 100%;" id="subject">
+                <select id="subject" style="width: 100%;">
                     <option value="-1">请选择专业</option>
                     <option value="播音主持">播音主持</option>
                     <option value="编导">编导</option>
@@ -87,7 +88,7 @@
         <div class="txb1">
             <div class="txb1_l">文 理 科</div>
             <div class="txb1_r">
-                <select id="select3" style="width: 100%;" id="subjectType">
+                <select style="width: 100%;" id="subjectType">
                     <option value="-1">请选择文理科</option>
                     <option value="文科">文科</option>
                     <option value="理科">理科</option>
@@ -121,6 +122,7 @@
     </div>
     <div class="attract5_b">其他详情请咨询服务热线：0757-82360855</div>
 </div>
+</form>
 
 
 <!--带搜索的select-->
@@ -151,18 +153,12 @@
     }
 
     /* Create select elements */
-    $("#select1").tinyselect();
-    $("#select2").tinyselect();
-    $("#select3").tinyselect();
-    $("#select4").tinyselect();
-    $("#select5").tinyselect();
-    $("#select6").tinyselect();
-    $("#select7").tinyselect();
-    $("#havoc").show()
+    $("#sex").tinyselect();
+    $("#subject").tinyselect();
+    $("#subjectType").tinyselect();
 
     $(function(){
         $("form").submit(function(e){
-            var $form=$('#form');
             var msg='学员姓名：'+$('#name').val()+'，';
             msg+='性别：'+$('#sex').val()+'，';
             msg+='报读专业：'+$('#subject').val();
@@ -171,7 +167,7 @@
             msg+='在读学校：'+$('#school').val();
             msg+='年级班级：'+$('#grade').val();
             msg+='学籍所在：'+$('#city').val();
-            msg+='本人身高：'+$('#cdid').val();
+            msg+='本人身高：'+$('#high').val();
             msg+='身份证号：'+$('#cdid').val();
             msg+='文理科：'+$('#subjectType').val();
             msg+='电子邮箱：'+$('#mail').val();

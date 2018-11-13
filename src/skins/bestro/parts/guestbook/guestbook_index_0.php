@@ -1,87 +1,190 @@
-<?php
-    // 为方便并保证您以后的快速升级 请使用SHL提供的如下全局数组
-	
-	// 数组定义/config/doc-global.php
-	
-	// 如有需要， 请去掉注释，输出数据。
-	/*
-	echo '<pre>';
-		print_r($tag);
-	echo '</pre>';
-	*/
-?>
-<style type="text/css">
-*{ padding:0; margin:0;}
-img{ border:none;}
-a{ text-decoration:none;}
-.guestbk,.guestbk p,#guestsmt{ width:100%; float:left;}
-.ask-box{background:#EEE; margin-bottom:30px; float:left;}
-.ask-box .lwrap{background:#EEE;/* 修正IE6 */_position:relative;_z-index:10;} /* arrow-effect */
-.lwrap span{ float:right; font-size:14px; color:#999;}
-.ask-left{ border-left:20px solid #FFF; border-top:20px solid #EEE; margin-top:20px;}
-.answer-right{ border-right:20px solid #FFF; border-top:20px solid #4FBCD8;}
-.ask-left .lwrap,.answer-right .rwraps{ padding:12px 10px 12px 10px; margin-top:-40px; line-height:25px; width:auto!important; max-width:500px;  /* sets min-width & max-width for ie */ _width: expression(document.body.clientwidth > 500 ? "500px" : "auto");}
-.answer-box{background:#4FBCD8;margin-bottom:30px; float:right;}
-.answer-box .rwraps{background:#4FBCD8;/* 修正IE6 */_position:relative;_z-index:10; color:#fff;} /* arrow-effect */
-.useript{ background-color: white; border-color: #CCCCCC #E2E2E2 #E2E2E2 #CCCCCC; border-style: solid; border-width: 1px;  box-shadow: 1px 2px 3px #F0F0F0 inset; overflow: hidden; padding: 10px 0 8px 8px; vertical-align: middle;}
-#guestsmt{ padding:30px 0 30px 10px;}
-.guestinfo{ width:96%; height:80px; margin-bottom:15px; float:left;}
-#guestsmt p{ width:97%;}
-#guestsmt span{ font-family:"微软雅黑"; font-size:14px;}
-.usertel{ width:100px; margin-right:20px;}
-.userbtn{ padding:0.2em 0.8em; font-family:"微软雅黑"; font-size:20px; border:none; float:left; cursor:pointer;}
-.usersbmt{ background:url(<?php echo $tag['path.skin']; ?>res/images/logbg.jpg) no-repeat; color:#fff; float:left; margin-top:15px;}
-#articeBottom { font-size: 14px; margin: 6px 0 10px; padding-top: 10px; text-align: right; width: 97%;}
-</style>
-<script language="javascript">
-<!--
-function validator()
-{
- 	if(document.getElementById('name').value=="")
-	{alert("请输入您的姓名!"); document.getElementById('name').focus(); return false;}
-	if(document.getElementById('telephone').value=="")
-	{alert("请输入您的联系电话!");document.getElementById('telephone').focus();return false;}
-	if(document.all['content'].value=="")
-	{alert("请输入您的留言内容!");document.all['content'].focus();return false;}
-}
--->
-</script>
-<div class="guestbk">
-<form id="form1" name="form1" method="post" action="<?php echo sys_href($params['id'],'form_action');?>" onsubmit="return validator()">
-	<div id="guestsmt">
-        	<textarea name="content" id="" cols="" rows="" class="useript guestinfo"></textarea>
-            <p>
-            	<span>姓名：</span><input name="name" type="text" id="name" class="useript usertel"  value=""/>
-                <?php echo sys_push('','<span>{name}：</span><input name="custom[]" type="text" class="useript usertel"  value=""/>')?>
-                <span>联系方式：</span><input name="contact" type="text" id="contact" class="useript usertel"  value=""/>
-                <span>验证码：</span><input name="checkcode" type="text" id="checkcode" class="useript usertel"  value=""/><img src="<?php echo URLREWRITE? '/':'./'; ?>inc/verifycode.php" />
-            </p>
-            <p><input name="" type="submit" value="提 交" class="userbtn usersbmt" /></p>
-        </div>
- </form>
+<!--内页-->
+<!--您还在等待？-->
+<div class="attract_t2">
+    <div class="attract_t2_in">
+        <span>· 您还在等待? ·</span>
+        <label>Are you just waiting</label>
+    </div>
 </div>
-<?php
-if(!empty($tag['data.results']))
-{
-	foreach($tag['data.results'] as $k=>$data)
-	{
-		?>
-        <p>
-            <div class="ask-box ask-left">
-                <div class="lwrap"><strong><?php echo $data['name'];?>问：</strong><a href="<?php echo sys_href($data['channelId'],'guestbook',$data['id'])?>"><?php echo $data['content'];?></a><br /><span><?php echo $data['dtTime'];?></span></div>
+<div class="attract5">
+    <div class="attract5_t">互联网家装风暴已席卷而来，未来黄金10年，盈家网邀您分享1.4万亿家装市场蛋糕</div>
+
+    <div class="attract5_m">
+
+
+
+        <div class="clear"></div>
+        <div class="txb1">
+            <div class="txb1_l">学员姓名</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入学员姓名" id="name">
             </div>
-        </p>
-        <p>
-            <div class="answer-box answer-right">
-                <div class="rwraps">答：<?php echo $data['content1'];?></div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">选择性别</div>
+            <div class="txb1_r">
+                <select id="select1" style="width: 100%;" id="sex">
+                    <option value="-1">请选择性别</option>
+                    <option value="女">女</option>
+                    <option value="男">男</option>
+                </select>
             </div>
-        </p>
-  		<?php
-	}
-	?>
-	<div id="articeBottom">
-		<div id="apartPage"><?php if(!empty($tag['pager.cn']))echo $tag['pager.cn'];?> </div>
-	</div>
-	<?php
-}
-?>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">报读专业</div>
+            <div class="txb1_r">
+                <select id="select2" style="width: 100%;" id="subject">
+                    <option value="-1">请选择专业</option>
+                    <option value="播音主持">播音主持</option>
+                    <option value="编导">编导</option>
+                    <option value="摄影摄像">摄影摄像</option>
+                    <option value="表演">表演</option>
+                </select>
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">本人电话</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入本人电话" id="myPhone">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">老师电话</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入班主任电话" id="techPhone">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">在读学校</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入在读学校" id="school">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">年级班级</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入年级班级" id="grade">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">学籍所在</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入学籍所在地" id="city">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">本人身高</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入本人身高" id="high">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">身份证号</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入身份证号" id="cdid">
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">文 理 科</div>
+            <div class="txb1_r">
+                <select id="select3" style="width: 100%;" id="subjectType">
+                    <option value="-1">请选择文理科</option>
+                    <option value="文科">文科</option>
+                    <option value="理科">理科</option>
+                </select>
+            </div>
+        </div>
+        <div class="txb1">
+            <div class="txb1_l">电子邮箱</div>
+            <div class="txb1_r">
+                <input type="text" class="txt1" placeholder="请输入电子邮箱" id="mail">
+            </div>
+        </div>
+
+
+        <div class="clear"></div>
+        <div class="txb2">
+            <div class="txb1_l">家庭地址</div>
+            <div class="txb1_r2">
+                <textarea placeholder="请输入家庭地址" id="address"></textarea>
+            </div>
+        </div>
+        <div class="attract_btn"><input type="image" src="<?php echo $tag['path.skin']; ?>images/attract_btn.png" /></div>
+
+        <div class="txb2">
+            <div class="txb1_l">验证码</div>
+            <div class="txb1_r2">
+                <input type="text" name="checkcode">&nbsp;
+                <img src="<?php echo URLREWRITE? '/':'./'; ?>inc/verifycode.php" /></div>
+            </div>
+        </div>
+
+        <input id="msg" name="content" style="display: none"/>
+    </div>
+
+    <div class="attract5_b">其他详情请咨询服务热线：0757-82360855</div>
+</div>
+
+
+
+<!--带搜索的select-->
+<link rel="stylesheet" href="<?php echo $tag['path.skin']; ?>css/tinyselect.css">
+<style>.searchcontainer{display:none;}</style>
+<!--带搜索的select js-->
+<script src="<?php echo $tag['path.skin']; ?>js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="<?php echo $tag['path.skin']; ?>js/tinyselect.js"></script>
+<script>
+    /* This parser won't respect "---" selection */
+    function dataParserA(data, selected) {
+        retval = [ { val: "-1" , text: "---" } ];
+
+        data.forEach(function(v){
+            if(selected == "-1" && v.val == 3)
+                v.selected = true;
+            retval.push(v);
+        });
+
+        return retval;
+    }
+
+    /* This parser let's the component to handle selection */
+    function dataParserB(data, selected) {
+        retval = [ { val: "-1" , text: "---" } ];
+        data.forEach(function(v){ retval.push(v); });
+        return retval;
+    }
+
+    /* Create select elements */
+    $("#select1").tinyselect();
+    $("#select2").tinyselect();
+    $("#select3").tinyselect();
+    $("#select4").tinyselect();
+    $("#select5").tinyselect();
+    $("#select6").tinyselect();
+    $("#select7").tinyselect();
+    $("#havoc").show()
+
+    $(function(){
+        $("form").submit(function(e){
+            var $form=$('#form');
+            var msg='学员姓名：'+$('#name').val()+'，';
+            msg+='性别：'+$('#sex').val()+'，';
+            msg+='报读专业：'+$('#subject').val();
+            msg+='本人电话：'+$('#myPhone').val();
+            msg+='老师电话：'+$('#techPhone').val();
+            msg+='在读学校：'+$('#school').val();
+            msg+='年级班级：'+$('#grade').val();
+            msg+='学籍所在：'+$('#city').val();
+            msg+='本人身高：'+$('#cdid').val();
+            msg+='身份证号：'+$('#cdid').val();
+            msg+='文理科：'+$('#subjectType').val();
+            msg+='电子邮箱：'+$('#mail').val();
+            msg+='家庭地址：'+$('#address').val();
+
+            $('#msg').val(msg);
+            console.log(msg);
+            //$form.submit();
+            return true;
+        });
+    });
+</script>

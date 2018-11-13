@@ -1,6 +1,6 @@
 <?php
 //数据库配置字段
-define('DB_HOSTNAME','localhost');
+define('DB_HOSTNAME','localhost:8889');
 define('DB_USER','root');
 define('DB_PASSWORD','root');
 define('DB_DBNAME','babybei');
@@ -11,8 +11,8 @@ define('WEBSIZE','500');
 define('WEBSIZECOUNTS','53');
 define('WEBURL','');    //PC 域名
 define('MOBILEURL','');  //移动域名
-define('SITENAME','稻壳企业建站系统[DocCms X1.0]2016正式版');
-define('SITEKEYWORDS','123');
+define('SITENAME','佛山市艺高语言艺术培训中心');
+define('SITEKEYWORDS','/?p=9');
 define('SITESUMMARY','');
 define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
@@ -39,7 +39,7 @@ define('VERSION','X2016 1.1.0101');
 $fileIndex 	= 'index.html';
 $fileCommon = 'common.html';
 //水印图片
-define('ISWATER',true);
+define('ISWATER',false);
 define('WATERIMGS','/inc/img/system/doccms.png');
 //缩略图背景颜色设置
 define('paint_bgcolor','0xffffff');

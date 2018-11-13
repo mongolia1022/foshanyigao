@@ -17,10 +17,14 @@ global $subs;
 $select ='class="now"';  //选中状态的样式，若无选中状态，可不添加。
 $target ='target="_blank"'; //外链则弹出新窗口，若不需弹出新窗口可清空此变量。
 $ico = ispic($data['originalPic'])?'<img src="'.$data['originalPic'].'" />':''; //栏目图标，可在后台栏目缩略图处上传
-$select = $params['id']==$data['id']||$i==0?$select:''; 
+$select = $params['id']==$data['id']?$select:'';
 $target = $data['isTarget']?$target:'';
 ?>
-<li onmouseover="setTab(1,<?php echo $i?>)" <?php echo $select?>><a href="<?php echo $url?>"><?php echo $data['title'];?></a></li>
-<?php if($i<6){?>
-<span>　　|　　</span>
-<?php }?>
+<li <?php echo $select;?>>
+    <div class="ll_title">
+        <a href="<?php echo $url?>">
+            <span><?php echo $data['title'];?></span>
+            <label class="iconfont">&#xe615;</label>
+        </a>
+    </div>
+</li>

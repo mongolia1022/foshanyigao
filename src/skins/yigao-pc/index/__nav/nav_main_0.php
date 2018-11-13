@@ -12,7 +12,7 @@
 *
 */
 global $subs;
-$select ='class="selt"';  //选中状态的样式，若无选中状态，可不添加。
+$select ='class="now"';  //选中状态的样式，若无选中状态，可不添加。
 $target ='target="_blank"'; //外链则弹出新窗口，如不需要弹出新窗口可清空此变量。
 
 if($params['id']!=$data['id'])if(sys_menu_info('id',true) != $data['id'])$select = '';

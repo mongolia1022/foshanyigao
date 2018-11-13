@@ -3,7 +3,7 @@
 		foreach($flash['results'] as $data)
 		{
 	   ?>
-     <div class="swiper-slide" style="background:url(<?php echo $data['picpath'];?>) top center;"></div>
+     <div class="swiper-slide" style="background:url(<?php echo $data['picpath'];?>)  top center no-repeat;"></div>
             <?php
 		}
 		?>

@@ -7,7 +7,7 @@
     </div>
 </div>
 <div class="attract5">
-    <div class="attract5_t">互联网家装风暴已席卷而来，未来黄金10年，盈家网邀您分享1.4万亿家装市场蛋糕</div>
+    <div class="attract5_t">把自己铸造成器，方才可以希望有益于社会。真实的为我，便是最有益的为人。</div>
 
     <div class="attract5_m">
 
@@ -117,14 +117,10 @@
                 <input type="text" name="checkcode">&nbsp;
                 <img src="<?php echo URLREWRITE? '/':'./'; ?>inc/verifycode.php" /></div>
         </div>
+        <input id="msg" name="content" style="display: none"/>
     </div>
-
-    <input id="msg" name="content" style="display: none"/>
+    <div class="attract5_b">其他详情请咨询服务热线：0757-82360855</div>
 </div>
-
-<div class="attract5_b">其他详情请咨询服务热线：0757-82360855</div>
-</div>
-
 
 
 <!--带搜索的select-->

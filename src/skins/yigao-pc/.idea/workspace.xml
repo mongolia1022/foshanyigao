@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbdaff40-573d-46d7-859a-f1e79a505fb6" name="Default Changelist" comment="开发">
-      <change beforePath="$PROJECT_DIR$/../bestro/index/__nav/nav_main_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bestro/index/__nav/nav_main_0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bestro/parts/guestbook/guestbook_index_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/../bestro/parts/guestbook/guestbook_index_0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/guestbook/guestbook_index_0.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />

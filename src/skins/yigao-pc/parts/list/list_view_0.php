@@ -37,8 +37,32 @@
          </div>
 
          <div class="inside_b">
-             <span>上一篇　<a href="<?php echo sys_href($params['id'],'list',$is_up['id'])?>"><?php echo $is_up['title']; ?></a></span>
-             <span>下一篇　<a href="<?php echo sys_href($params['id'],'list',$is_down['id'])?>"><?php echo $is_down['title']; ?></a></span>
+             <?php
+             $is_up=$tag['pager.data.up'];
+             $is_down=$tag['pager.data.down'];
+             if(is_array($is_down)&&is_array($is_up))
+             {
+                 ?>
+                 <span>下一篇　<a href="<?php echo sys_href($params['id'],'list',$is_down['id'])?>"><?php echo $is_down['title']; ?></a></span>
+                 <span>上一篇　<a href="<?php echo sys_href($params['id'],'list',$is_up['id'])?>"><?php echo $is_up['title']; ?></a></span>
+                 <?php
+             }
+             else{
+                 if(is_array($is_up))
+                 {
+                     ?>
+                     <span>下一篇　<a href="<?php echo sys_href($params['id'],'list',$is_up['id'])?>"><?php echo $is_up['title']; ?></a></span>
+                     <?php
+                 }
+                 if(is_array($is_down))
+                 {
+                     ?>
+                     <span>上一篇　<a href="<?php echo sys_href($params['id'],'list',$is_down['id'])?>"><?php echo $is_down['title']; ?></a></span>
+                     <?php
+                 }}
+             unset($is_up);
+             unset($is_down);
+             ?>
          </div>
      </div>
 
